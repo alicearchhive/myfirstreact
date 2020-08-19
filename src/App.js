@@ -20,7 +20,7 @@ function App() {
     <Container>
       <br />
       <div>
-  <Header size='huge'>Alice Archive</Header>
+  <h1 style = {{color : "black", textAlign : "center"}}> Kinda Orange </h1>
 
         <Container left>
           <Header as="h3"> </Header>
@@ -35,7 +35,7 @@ function App() {
                 <List.Content>Seoul, Korea</List.Content>
               </List.Item>
               <List.Item>
-                <List.Icon name="mail" />
+                <List.Icon name="mail"/>
                 <List.Content>
                   <a href="tldhselwkdls@gmail.com">tldhselwkdls@gmail.com</a>
                 </List.Content>
@@ -54,14 +54,37 @@ function App() {
         <br />
 
         <Image src={o} centered />
+        <br/>
         <Reveal animated='move'>
            <Reveal.Content visible>
-             <Image src='https://m.media-amazon.com/images/M/MV5BOWU1ZjE3ZTQtZTQ5ZS00ZWFkLWFhNjEtODFhZDczOTRjYzNlXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SX1500_CR0,0,1500,999_AL_.jpg'/>
+             <Image src='https://m.media-amazon.com/images/M/MV5BOWU1ZjE3ZTQtZTQ5ZS00ZWFkLWFhNjEtODFhZDczOTRjYzNlXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SX1500_CR0,0,1500,999_AL_.jpg'
+             href='http://google.com'/>
            </Reveal.Content>
            <Reveal.Content hidden>
-             <Image src='https://m.media-amazon.com/images/M/MV5BY2YwZmFlZjktYWYyYy00NDJhLWJkNzItMDczNDRlY2VjMjZiXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SX1500_CR0,0,1500,999_AL_.jpg' />
+             <Image src='https://m.media-amazon.com/images/M/MV5BY2YwZmFlZjktYWYyYy00NDJhLWJkNzItMDczNDRlY2VjMjZiXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SX1500_CR0,0,1500,999_AL_.jpg'
+             onClick={() => window.open('http://google.com')}/>
            </Reveal.Content>
          </Reveal>
+
+         <br/>
+
+         <Container>
+
+             <p>
+               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+               ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et
+               magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+               ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+               quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
+               arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+               Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras
+               dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+               Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+               Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+               viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+               Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+             </p>
+           </Container>
 
         <Divider horizontal>
           <Header as="h4">contact me</Header>
