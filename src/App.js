@@ -21,12 +21,12 @@ function App() {
     <Container>
       <br />
       <div>
-        <h1 style={{ color : "black", textAlign : "center", fontFamily : "Raleway" }}> Kinda Orange </h1>
+        <h1 style={{ color : "black", textAlign : "center", fontFamily : "Montserrat" }}> Kinda Orange </h1>
 
         <Container left>
           <Header as="h3"> </Header>
           <p>
-            <List style={{ color : "black", fontFamily : "Raleway" }}>
+            <List style={{ color : "black", fontFamily : "Montserrat" }}>
               <List.Item>
                 <List.Icon name="student" />
                 <List.Content>Hongik University</List.Content>
@@ -72,7 +72,13 @@ function App() {
 
         <br />
 
-        <Container style={{fontFamily : "Raleway"}}>
+        <Container style={{fontFamily : "Montserrat"}}>
+        <Grid>
+    <Grid.Row>
+    <Grid.Column width={4}>
+    <p>  </p>
+      </Grid.Column>
+      <Grid.Column width={12}>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque
@@ -89,10 +95,13 @@ function App() {
             imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
             ultricies nisi.
           </p>
+          </Grid.Column>
+        </Grid.Row>
+        </Grid>
         </Container>
 
         <Divider horizontal>
-          <Header as="h4">contact me</Header>
+          <Header as="h4" style={{fontFamily : "Montserrat"}}>contact me</Header>
         </Divider>
 
         <Container centered>
